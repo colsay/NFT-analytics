@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
-import Landing from "../src/components/landing";
 import React from "react";
+import Landing from "../src/components/landing";
+import Navbar from "../src/components/navbar";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Navbar />
       <Landing />
     </div>
   );
